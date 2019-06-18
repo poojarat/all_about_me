@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tell Me More</title>
+</head>
+<body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Me</a>
+                </li>
+                <li>
+                    <a href="tell_me_more.html">All About You!</a>
+                </li>
+                </ul>
+        </nav>
+        <main>
+            <hr>
+            <h1>All About You!</h1>
+            <form action="https://formspree.io/poojarat@gmail.com" method="POST">
+                <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" placeholder="Joe">
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="last_name" placeholder="Schmo">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="JoeSchmo@go.com">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob"><br>
+                <label for="code_love">How much do you love to code?</label>
+                <input type="range" name="code_love" min="0" max="100">
+                <br>
+                <label>Coding Skills: (Check all that apply)</label>
+                <input type="checkbox" name="html" value="true">
+                <label>HTML</label>
+                <input type="checkbox" name="css" value="true">
+                <label>CSS</label>
+                <input type="checkbox" name="git" value="true">
+                <label>Git</label>
+                <br>
+                <label name="fav_lang">Select your favorite language:</label>
+                <select name="fav_lang">
+                    <option>Ruby</option>
+                    <option>Python</option>
+                    <option>JavaScript</option>
+                    <option>English</option>
+                    <option>Other</option>
+                </select>
+                <br>
+                <label name="fav_browser">What is your favorite browser?</label>
+                <input type="text" name="fav_browser">
+                <br>
+                <label name="whitespace_pref">Whitespace:</label>
+                <input type="radio" name="whitespace_pref" value="tabs">
+                <label>Tabs</label>
+                <input type="radio" name="whitespace_pref" value="spaces" checked>
+                <label>Spaces</label>
+                <br>
+                <label for="tabspace">How many spaces should a tab represent:</label>
+                <input type="number" placeholder="2">
+                <br>
+                <label for="webcolor">What's your favorite web color?</label>
+                <input type="color" name="webcolor">
+                <br>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </main>
+</body>
+</html>
