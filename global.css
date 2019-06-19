@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+li {
+    list-style-type: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    padding: 0 20px;
+    margin: 50px;
+}

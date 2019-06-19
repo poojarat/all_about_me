@@ -1,0 +1,40 @@
+input[type="text"], textarea {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 6px;
+    margin: 6px 0;
+    border: 2px solid lightgrey;
+}
+
+@media only screen and (max-width: 1020px) {
+    form {
+      background-color: lightblue;
+}}
+
+  form {
+      width: 1000px;
+      margin: 0 auto;
+}
+
+textarea {
+    resize: none;
+}
+
+button, input[type="reset"] {
+    background-color: mediumblue;
+    color: white;
+    padding: 15px;
+    font-size: 1rem;
+    border: 0;
+    width: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, input[type="reset"]:hover {
+    background-color: goldenrod;
+}
+
+h1 {
+    text-align: center;
+}
